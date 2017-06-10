@@ -15,12 +15,22 @@
             margin: 25px 25px;
         }
 
-        .page-footer {
+        .navbar {
             margin-bottom: 25px;
         }
 
-        .navbar {
-            margin-bottom: 25px;
+        .orange-text {
+          color: orange;
+          font-family: "Courier";
+          font-weight: bold;
+        }
+
+        body {
+          background-color: orange
+        }
+
+        p {
+          color: black;
         }
     </style>
 </head>
@@ -46,6 +56,26 @@
         </div>
     </nav>
     <!--/Put at the top of each body-->
-  <p>I know, builds are broken and also this page is not built, I will fix this eventually.</p>
+
+    <div class="container container-fluid text-center">
+
+
+      <div class="jumbotron">
+        <div class="col-xs-6 orange-text">
+          <h1>Sassafras</h1>
+          <p>Simple aliases for Discord</p>
+        </div>
+        <img src="https://raw.githubusercontent.com/qanazoga/Sassafras/master/sassafras_icon_0gl_icon.ico" class="img-responsive center-block">
+      </div>
+
+      <div class="panel how-it-works">
+        <h2>How does it work?</h2>
+        <video width="320" height="240" controls>
+          <source src="http://qanazoga.github.io/files/sassafras-example.webm" type="video/webm">
+          This video is unavailable
+        </video>
+      </div>
+
+    </div>
   </body>
   </html>
