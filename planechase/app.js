@@ -56,8 +56,6 @@ var chaos = function() {
 
 var deckIndex = deckArray(deck.length);
 
-console.log(deckIndex);
-
 var i = 0;
 
 var planeswalkingNow = false;
