@@ -15,7 +15,7 @@ const possibleBackgrounds = [
     "http://aesthetic-meme.neocities.org/mmmm%20sweet%20aesthetic.jpg",
     "http://monodomo.com/free-wallpapers/aesthetic-vaporwave-wallpaper-for-android-For-Free-Wallpaper.png",
     "http://hennepinonline.info/wp-content/uploads/2018/02/awesome-aesthetic-wallpapers-desktop-free-2.jpg"
-]
+];
 
 const astheticObjects = [
     "http://78.media.tumblr.com/c4e64470ef81877eb1b81120aec4bb3d/tumblr_ojp25pUjQz1twgsxao1_1280.png",
@@ -29,7 +29,7 @@ const astheticObjects = [
     "https://orig00.deviantart.net/deb1/f/2017/094/0/e/ughhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh_by_tokyodaze_aesthetic-db4ocm7.gif",
     "https://cdn170.picsart.com/upscale-239702215005212.png?r1024x1024",
     "http://78.media.tumblr.com/ab5ca1c5d15333f9e543a79e2ca0d627/tumblr_om65i5attk1vheq2do1_1280.gif"
-]
+];
 
 const aestheticDict = {
     'a': 'ａ', 
@@ -91,7 +91,7 @@ let japaneseEnabled = true;
 
 const japanese = [
     'ｦ', 'ｧ', 'ｨ', 'ｩ', 'ｪ', 'ｫ', 'ｬ', 'ｭ', 'ｮ', 'ｯ', 'ｱ', 'ｲ', 'ｳ', 'ｴ', 'ｵ', 'ｶ', 'ｷ', 'ｸ', 'ｹ', 'ｺ', 'ｻ', 'ｼ', 'ｽ', 'ｾ', 'ｿ', 'ﾀ', 'ﾁ',
-    'ﾂ', 'ﾃ', 'ﾄ', 'ﾅ', 'ﾆ', 'ﾇ', 'ﾈ', 'ﾉ', 'ﾊ', 'ﾋ', 'ﾌ', 'ﾍ', 'ﾎ', 'ﾏ', 'ﾐ', 'ﾑ', 'ﾒ', 'ﾓ', 'ﾔ', 'ﾕ', 'ﾖ', 'ﾗ', 'ﾘ', 'ﾙ', 'ﾚ', 'ﾛ', 'ﾜ', 'ﾝ']
+    'ﾂ', 'ﾃ', 'ﾄ', 'ﾅ', 'ﾆ', 'ﾇ', 'ﾈ', 'ﾉ', 'ﾊ', 'ﾋ', 'ﾌ', 'ﾍ', 'ﾎ', 'ﾏ', 'ﾐ', 'ﾑ', 'ﾒ', 'ﾓ', 'ﾔ', 'ﾕ', 'ﾖ', 'ﾗ', 'ﾘ', 'ﾙ', 'ﾚ', 'ﾛ', 'ﾜ', 'ﾝ'];
 
 
 const selectRandom = (array) => { return array[Math.floor(Math.random() * array.length)] };
