@@ -1,135 +1,229 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>E-Portfolio</title>
-    <link rel="icon" href="https://avatars0.githubusercontent.com/u/19333607?v=3&amp;s=460" type="image/png">
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!--
-        Did you ever hear the tragedy of Darth Plagueis The Wise?
-        I thought not. It's not a story the Jedi would tell you.
-        It's a Sith legend. Darth Plagueis was a Dark Lord of the Sith,
-        so powerful and so wise he could use the Force to influence the
-        midichlorians to create life. He had such a knowledge of the
-        dark side that he could even keep the ones he cared about from
-        dying. The dark side of the Force is a pathway to many abilities
-        some consider to be unnatural. He became so powerful, the only
-        thing he was afraid of was losing his power, which eventually,
-        of course, he did. Unfortunately, he taught his apprentice
-        everything he knew, then his apprentice killed him in his sleep.
-        Ironic. He could save others from death, but not himself.
-    -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>E-portfolio</title>
+<!--Bootstrap 4 (leave as 1st stylesheet)-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
+<!--                                                                                                 
+ ,adPPYb,d8  ,adPPYYba,  8b,dPPYba,   ,adPPYYba,  888888888   ,adPPYba,    ,adPPYb,d8  ,adPPYYba,  
+a8"    `Y88  ""     `Y8  88P'   `"8a  ""     `Y8       a8P"  a8"     "8a  a8"    `Y88  ""     `Y8  
+8b       88  ,adPPPPP88  88       88  ,adPPPPP88    ,d8P'    8b       d8  8b       88  ,adPPPPP88  
+"8a    ,d88  88,    ,88  88       88  88,    ,88  ,d8"       "8a,   ,a8"  "8a,   ,d88  88,    ,88  
+ `"YbbdP'88  `"8bbdP"Y8  88       88  `"8bbdP"Y8  888888888   `"YbbdP"'    `"YbbdP"Y8  `"8bbdP"Y8  
+         88                                                                aa,    ,88              
+         88                                                                 "Y8bbdP"               
+-->
 
+<style>
+    h3 {
+        margin: 10px 0px;
+    }
+    
+    .card {
+        margin: 3px 3px;
+    }
+</style>
 <body>
-    <!--Put at the top of each body-->
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="..">Home</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="http://github.com/qanazoga">GitHub</a></li>
-                    <li><a href="../business">Business</a></li>
-                    <li><a href="../fun">Fun Stuff</a></li>
-                    <li><a href="mailto:qanazoga@gmail.com">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!--/Put at the top of each body-->
+    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <a id="navbar-home" class="navbar-brand" href="../">Home</a>
 
+        <!--Navbar buttons-->
+        <div class="collapse navbar-collapse" id="collapsible-navbar">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="../#personal-projects">Personal Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../#school-projects">School Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../#other-projects">Other Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../#">Contact etc.</a>
+            </li>
+            </ul>
+        </div>
+
+        <!--Navbar hamburger button-->
+        <button id="hamburger-button" class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsible-navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    
     <!--The actual school part-->
     <div class="container">
         <div class="page-header">
-            <h1>E-Portfolio</h1>
+            <h1>SLCC E-Portfolio</h1>
         </div>
 
-        <h1>SLCC</h1>
         <!--Summer 2016-->
         <h3>Summer 2016</h3>
         <div class="row">
-            <div class="col-sm-12 col-md-6">
-                <h4>Fine Arts</h4>
-                <p>Intro to Drawing</p>
+            
+        <div class="col-sm col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4>Art 1020</h4>
+                    <h5>Intro to Drawing</h5>
+                </div>
             </div>
+        </div>
 
-            <div class="col-sm-12 col-md-6">
-                <h4>Math 1010</h4>
-                <h5>Intermediate Algebra</h5>
-                <table class="table">
-                    <tbody>
-                        <tr>
-                            <td>Final Project</td>
-                            <td><a href="../files/math-1010-final.pdf">Download a PDF</a></td>
-                        </tr>
-                    </tbody>
-                </table>
+        <div class="col-sm col-md-6">
+            <div class="card">
+                    <div class="card-body">
+                    <h4>Math 1010</h4>
+                    <h5>Intermediate Algebra</h5>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>Final Project</td>
+                                <td><a href="../files/math-1010-final.pdf">Download a PDF</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
             </div>
-
         </div>
 
         <!--Fall 2016-->
         <h3>Fall 2016</h3>
         <div class="row">
-            <div class="col-sm-12 col-md-6">
-                <h4>CSIS 1410</h4>
-                <h5>Object Oriented Programming</h5>
-                <table class="table">
-                    <tbody>
-                        <tr>
-                            <td>Final Project</td>
-                            <td><a href="https://github.com/qanazoga/SkyGuard/releases/download/v1.0/SkyGuard.exe">download</a></td>
-                            <td><a href="http://github.com/qanazoga/skyguard">Code Available Here!</a></td>
-                        </tr>
-                    </tbody>
-                </table>
+
+            <div class="col-sm col-md-6 mx-auto">
+                <div class="card">
+                    <div class="card-body">  
+                        <h4>CSIS 1410</h4>
+                        <h5>Object Oriented Programming</h5>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>Final Project</td>
+                                    <td><a href="https://github.com/qanazoga/SkyGuard/releases/download/v1.0/SkyGuard.exe">download</a></td>
+                                    <td><a href="http://github.com/qanazoga/skyguard">Code Available Here!</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>                
+                </div>
             </div>
         </div>
 
         <!--Spring 2017-->
         <h3>Spring 2017</h3>
+
         <div class="row">
-            <div class="col-sm-12 col-md-6">
-                <h4>CSIS 1550</h4>
-                <h5>SQL Programming</h5>
+
+            <div class="col-sm col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>CSIS 1550</h4>
+                        <h5>SQL Programming</h5>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-sm-12 col-md-6">
-                <h4>ENGL 1010</h4>
-                <h5>1010</h5>
+            <div class="col-sm col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>ENGL 1010</h4>
+                        <h5>1010</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            
+            <div class="col-sm col-md-6">
+                <div class="card">
+                    <div class="card-body">          
+                        <h4>HLAC 1013</h4>
+                        <h5>Body Strength and Tone</h5>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>Final Project</td>
+                                    <td><a href="../files/hlac-1013-final.pdf">Download a PDF</a></td>
+                                </tr>
+                            </tbody>
+                        </table>  
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>HLAC 1057</h4>
+                        <h5>Yoga 1</h5>
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <!--Fall 2017-->
+        <h3>Fall 2017</h3>
+
+        <div class="row">
+
+            <div class="col-sm col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>CSIS 2410</h4>
+                        <h5>Advanced Programming</h5>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-sm-12 col-md-6">
-                <h4>HLAC 1013</h4>
-                <h5>Body Strength and Tone</h5>
-                <table class="table">
-                    <tbody>
-                        <tr>
-                            <td>Final Project</td>
-                            <td><a href="../files/hlac-1013-final.pdf">Download a PDF</a></td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="col-sm col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>CSIS 2420</h4>
+                        <h5>Algorithms and Data Structures</h5>
+                    </div>
+                </div>
             </div>
+        </div>
 
-            <div class="col-sm-12 col-md-6">
-                <h4>HLAC 1057</h4>
-                <h5>Yoga 1</h5>
+        <!--Spring 2018-->
+        <h3>Spring 2018</h3>
+
+        <div class="row">
+
+            <div class="col-sm col-md-6 mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>HLAC 1080</h4>
+                        <h5>Strength Training</h5>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>Final Project</td>
+                                    <td><a href="../files/hlac-1080-final.html">View final project</a></td>
+                                </tr>
+                            </tbody>
+                        </table>  
+                    </div>
+                </div>
             </div>
 
         </div>
     </div>
+</div>
     <!--/The actual school part-->
+
+
+<!--Bootstrap and JQuery (keep at end of body).-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
